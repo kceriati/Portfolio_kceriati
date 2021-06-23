@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
 import axios from "axios";
-import pdf from "../../Assets/Soumyajit-Behera.pdf";
+import pdf from "../../Assets/cv_dev_portfolio_final.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
@@ -42,52 +42,54 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title="JUNIOR ML ENGINEER [Omdena]"
-              date="June 2020 - August 2020"
+              title="JUNIOR Full Stack Developer [Crédit Agricole des Savoie]"
+              date="June 2019 - June 2021"
               content={[
-                "Assembled the data from various social media platforms using Twitter, Reddit.Interpreted the collected text using word-clouds and various other factors that affect the change of sentiments of youth.",
-                " Utilized the data to find the issues using Topic Modelling and Building models using LSTM, BERT to predict the sentiments of the youth.",
+                "Design and development of internal workflows for the various departments of the CA Bank.",
+                "Maintenance and evolution of the application park.",
+                "Development of mobile application in Android Native for the customers and the employees of the agencies.",
               ]}
             />
-            <h3 className="resume-title">Extracurricular Activities</h3>
+            <h3 className="resume-title">Other Activities</h3>
             <Resumecontent
-              title="Web Developer [Pantheon-2019 Technical Fest of BIT Mesra]"
+              title="Multi-media development with Flutter 2.0"
               content={[
-                "Worked on creating the frontend-end of the website using Bootstrap, Javascript.",
+                "Worked on creating the frontend-end of Path Partout application.",
+                "Avatar creator for community hiking application"
               ]}
             />
             <Resumecontent
-              title="Web Developer [Bitotsav-2020 Technical Fest of BIT Mesra]"
+              title="Web Developer [OIKOS - 2019]"
               content={[
-                "Operated on developing the frontend end of the website using Bootstrap, Javascript and backend APIs using Node.js",
+                "I worked on front-end and back-end development of a green commerce application in PHP with the Laravel framework and Javascript",
               ]}
             />
           </Col>
           <Col md={6} className="resume-right">
             <h3 className="resume-title">Education</h3>
             <Resumecontent
-              title="IMSC MATHS AND COMPUTING [BIT Mesra, Ranchi] "
-              date="2018 - Present"
-              content={[`CGPA: ${cgpa} (Till ${sem}th Sem)`]}
+              title="LPDIM [IUT-CCI, Annecy (France)] "
+              date="2020 - Present"
+              content={[`Professional Bachelor’s Degree in multi-platform software development) – Sandwich course`]}
             />
             <Resumecontent
-              title="12TH BOARD [ODM Public School,Odisha]"
-              date="2015 - 2017"
+              title="3rd level RNCP degree -  Campus Numérique, Annecy (France)"
+              date="2018 - 2020"
               content={["Precentage: 88%"]}
             />
             <Resumecontent
-              title="10TH BOARD [ST Mary's School,Odisha] "
+              title="French Baccalaureate S - Berthollet Highschool (Annecy) "
               date="2005 - 2015"
-              content={["Precentage: 86%"]}
+              content={["Precentage: 75%"]}
             />
-            <h3 className="resume-title">Ranks and Achivements</h3>
+            <h3 className="resume-title">References</h3>
             <Resumecontent
               title=""
               content={[
-                `Current rank in Spoj ${spojRank}`,
-                `Current rank in HackerRank  ${hackerrank}`,
-                "Top Performer in Code-Break 1.0",
-                "Participant in Hack-A-Bit 2019",
+                `Thomas Mocellin - Lead developer at CADS`,
+                `Contact: thomas.mocellin@gmail.com`,
+                "Alexis Boulet - Developer at CADS",
+                "Contact: alboulet@orange.fr",
               ]}
             />
           </Col>
