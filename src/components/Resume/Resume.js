@@ -42,7 +42,7 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title="JUNIOR Full Stack Developer [Crédit Agricole des Savoie]"
+              title="JUNIOR Full Stack Developer [CADS - Annecy le Vieux]"
               date="June 2019 - June 2021"
               content={[
                 "Design and development of internal workflows for the various departments of the CA Bank.",
@@ -79,7 +79,7 @@ function Resume() {
             />
             <Resumecontent
               title="French Baccalaureate S - Berthollet Highschool (Annecy) "
-              date="2005 - 2015"
+              date="2005 - 2007"
               content={["Precentage: 75%"]}
             />
             <h3 className="resume-title">References</h3>
